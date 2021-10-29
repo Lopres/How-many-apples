@@ -1,0 +1,10 @@
+print("What is the price of an apple? ")
+The_apple = (input("20"))
+print("What is the price of an orange? ")
+The_orange = (input("25"))
+print("How many apples you want to buy? ")
+apples = int(input())
+print("How many oranges you want to buy? ")
+oranges = int(input())
+amount = The_apple*apples+The_orange*oranges
+print (f"the total is {amount}")
